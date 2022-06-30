@@ -27,4 +27,4 @@ jobs:
         repository: dfavaedrans/cicd-sot-2022
         #tag_with_ref: true
         #tag_with_sha: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:latest      
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}:latest      
